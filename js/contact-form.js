@@ -19,6 +19,6 @@ function sendForm() {
         window.location.href = newPath;
     } else {
         document.getElementById('result').textContent =
-            'Ungültige E-Mail. Bitte geben Sie eine gültige E-Mail-Adresse ein.';
+            'Correo electrónico no válido. Introduzca una dirección de correo electrónico válida.';
     }
 }
